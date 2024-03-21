@@ -2,14 +2,10 @@ import implementation
 
 test = implementation.Stack()
 
-print(test.size())
 print(test.empty())
-print(test.push(2))
+test.push(-1)
+test.push(10)
+test.push(5)
 print(test.top())
-print(test.push(3))
-print(test.push(5))
-print(test.top())
-print(test.empty())
-print(test.size())
-print(test.pop())
+test.pop()
 print(test.top())
